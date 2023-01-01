@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hype</title>
+		<!-- Icon -->
+		<link rel="icon" type="image" href="./img/icon4.png">
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<!-- Fontawesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+		<link rel="stylesheet" type="text/css" href="./hype.css">
+
+		<!-- Chat Head -->
+		<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+		<div class="elfsight-app-a79d23b0-33e8-4282-b9ab-9d346b71d997"></div>
+
+	</head>
+	<body>
+
+		<!-- Start Header Section -->
+		<!-- Start NavBar -->
+		<nav class="navbar fixed-top navbar-expand-md p-2 bg-dark">
+			<a href="#" class="navbar-brand">
+				<img src="./img/icon3.png" width="100px" alt="logo">
+				<span id="hype" class="text-light fw-bold">Hype</span>
+			</a>
+			<button type="button" class="navbar-toggler bg-white" data-bs-toggle='collapse' data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+			<div id="nav" class="navbar-collapse collapse justify-content-end">
+				<div class="dropdown">
+					<button class="btn btn-outline-secondary text-uppercase fw-bold text-light dropdown-toggle ms-2" data-bs-toggle="dropdown">Menu</button>
+						<ul class="dropdown-menu">
+							<li><a href="#book" class="dropdown-item fs-5">Book</a></li>
+							<li><a href="#k-drama" class="dropdown-item fs-5">K-Drama</a></li>
+							<li><a href="#t-drama" class="dropdown-item fs-5">Thai-Drama</a></li>
+							<li><a href="#cartoon" class="dropdown-item fs-5">Animation</a></li>
+							<li><a href="#music" class="dropdown-item fs-5">Music</a></li>
+						</ul>
+				</div>
+				<ul class="navbar-nav m-2">
+					<li class="nav-item"><a href="#" class="btn btn-outline-secondary nav-link text-uppercase fw-bold text-light me-1">Home</a></li>
+
+					<li class="nav-item"><a href="#contact" class="btn btn-outline-secondary nav-link text-uppercase fw-bold text-light me-1">Contact</a></li>
+
+					<li class="nav-item"><a href="#notice" class="btn btn-outline-secondary nav-link text-uppercase fw-bold text-danger">Notice</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="row justify-content-center align-items-center text-center banner">
+			<div class="col-12">
+				<h2 class="text-light fw-bold">Relax & Chill</h2>
+          		<p class="fs-4"> Enjoy Your Favourites In One Place</p>
+          		<p class="display-5"> Log in for better experience !</p>
+
+		          <div class="">
+		              <a href="#login" class="btn btn-outline-dark fs-4" onclick="login()"> Log In</a>
+		              <a href="#login" class='btn btn-outline-dark fs-4' onclick="signup()"> Sign Up</a>
+		          </div>
+			</div>
+		</div>		
+		<!-- End NavBar -->
+		<!-- End Header Section -->
+
+		<!-- Start Movie section -->
+		<section id="book">
+			<div class="container">
+				<div class="text-center p-4">
+					<h1 class="d-flex justify-content-center">Books</h1>
+					<p class="d-flex justify-content-center fs-3 lead">Top 4 Books You Should Read To Improve Your Knowledge And Self-Development</p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								The Monk Who Sold His Ferrari
+							</div>
+							<img id="img" src="./img/monk.png">
+							<div class="card-body">
+								<p>
+									Author : Robin Sharma
+									<br/>
+									Country : Canada
+									<br/>
+									Language : English
+									<br/>
+									Subject : Wealth management,Self-help
+									<br/>
+									Genre : Non-fiction
+									<br/>
+									Published :	HarperSanFrancisco
+									<br/>
+									Publication date : April 21, 1999
+									<br/>
+									Pages :	198 pages
+
+									<br/><br/>
+								
+									<a href="https://www.apnamba.com/Ebooks-pdf/The%20Monk%20who%20sold%20his%20ferrari%20-%20Robin%20Sharma%20(PDF)%20%5BQwerty80%5D.pdf" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read Now</a>
+								</p>
+							</div>
+							<div class="card-footer foot">
+								<a href="https://www.amazon.com/Monk-Who-Sold-His-Ferrari/dp/0062515675" class="btn btn-dark float-end" target="_blank"><i class="fas fa-shopping-cart float-end">&nbsp;Shop</i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								The Subtle Art of Not Giving a F*ck
+							</div>
+							<img id="img" src="./img/subtle.png">
+							<div class="card-body">
+								<p>
+									Author : Mark Manson
+									<br/>
+									Country: United States
+									<br/>
+									Language : English
+									</br/>
+									Subject : Wealth management,Self-help
+									<br/>
+									Genre : Non-fiction
+									<br/>
+									Publisher : HarperOne
+									<br/>
+									Publication date : September 13, 2016
+									<br/>
+									Pages : 224
+
+									<br/>
+								
+									<a href="https://nibmehub.com/opac-service/pdf/read/The%20Subtle%20Art%20of%20Not%20Giving%20a%20Fck%20A%20Counterintuitive%20Approach%20to%20Living%20a%20Good%20Life%20by%20Mark%20Manson%20(z-lib.org).pdf" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read Now</a>
+								</p>
+							</div>
+							<div class="card-footer foot">
+								<a href="https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive-ebook/dp/B019MMUA8S" class="btn btn-dark float-end" target="_blank"><i class="fas fa-shopping-cart float-end">&nbsp;Shop</i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								The Richest Man In Babylon
+							</div>
+							<img id="img" src="./img/babylon.png">
+							<div class="card-body">
+								<p>
+									Author : George S. Clason
+									<br/>
+									Country : United States
+									<br/>
+									Language : English
+									<br/>
+									Subject : Wealth management,Self-help
+									<br/>
+									Genre : Non-fiction
+									<br/>
+									Publisher : Penguin Books
+									<br/>
+									Publication date : 1926 (First Edition)
+									<br/>
+									Pages : 144
+									<br/><br/>
+
+									<a href="https://en.wikipedia.org/wiki/The_Richest_Man_in_Babylon" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Wiki</a>
+								</p>
+							</div>
+							<div class="card-footer foot">
+								<a href="//www.amazon.com/Richest-Man-Babylon-George-Clason/dp/1505339111" class="btn btn-dark float-end" target="_blank"><i class="fas fa-shopping-cart float-end">&nbsp;Shop</i></a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Think And Grow Rich
+							</div>
+							<img id="img" src="./img/think.png">
+							<div class="card-body">
+								<p>
+									Author : Napoleon Hill
+									<br/>
+									Original title : Think and Grow Rich
+									<br/>
+									Country : United States
+									<br/>
+									Language : English
+									<br/>
+									Subject : Personal-success,Self-help
+									<br/>
+									Genre : Non-fiction
+									<br/>
+									Publisher : The Ralston Society
+									<br/>
+									Publication date : 1937
+									<br/>
+									Pages : 238 pages
+								</p>
+								<a href="https://apex.oracle.com/pls/apex/lonestar/r/files/static/v13Y/Think-And-Grow-Rich_2011-06.pdf" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read Now</a>
+							</div>
+							<div class="card-footer foot">
+								<a href="https://www.amazon.com/Think-Grow-Rich-Landmark-Bestseller/dp/1585424331/ref=sr_1_1?crid=2XXI6NRAFARWP&keywords=think+grow+and+rich&qid=1672315567&s=books&sprefix=think+grow+and+rich%2Cstripbooks-intl-ship%2C367&sr=1-1" class="btn btn-dark float-end" target="_blank"><i class="fas fa-shopping-cart float-end">&nbsp;Shop</i></a>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+
+			</div>
+		</section>
+		<!-- End Movie section -->
+		<!-- Start K-drama section -->
+		<section id="k-drama">
+			<div class="container">
+				<div class="text-center p-4">
+					<h1 class="d-flex justify-content-center">K-Drama</h1>
+					<p class="d-flex justify-content-center fs-3 lead">Learn korean language with K-Drama !</p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Snowdrop
+							</div>
+							<img id="img" src="./img/snowdrop.png">
+							<div class="card-body">
+								<p>
+									Drama: Snowdrop
+									<br/>
+								    Hangul: 설강화: snowdrop
+								    <br/>
+								    Episodes: 16
+								    <br/>
+								    Language: Korean
+								    <br/>
+								    Country: South Korea 
+									<br/>
+								</p>
+
+									<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjv4vCc9J78AhUfT2wGHUQ8BBUQFnoECCkQAQ&url=https%3A%2F%2Fasianwiki.com%2FSnowdrop_(Korean_Drama)&usg=AOvVaw16UqNfgVxiGG-NUoTKx24W" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://www.imdb.com/video/vi3658466073/?playlistId=tt13304700&ref_=tt_pr_ov_vi" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.disneyplus.com/series/snowdrop/7E3RWgrSi59X" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Hotel Del Luna
+							</div>
+							<img id="img" src="./img/hotel.png">
+							<div class="card-body">
+								<p>
+									Drama: Hotel Del Luna
+									<br/>
+								    Hangul: 호텔 델루나
+								    <br/>
+								    Episodes: 16
+								    <br/>
+								    Language: Korean
+								    <br/>
+								    Country: South Korea  
+									<br/>
+								</p>
+									<a href="https://asianwiki.com/Hotel_Del_Luna" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/1IjMTR2DxlA" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.viki.com/tv/36667c-hotel-del-luna" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Semantic Error
+							</div>
+							<img id="img" src="./img/semantic.png">
+							<div class="card-body">
+								<p>
+									Drama: Semantic Error
+									<br/>
+									Hangul: 시맨틱 에러
+									<br/>
+									Episodes: 8
+									<br/>
+									Language: Korean
+									<br/>
+									Country: South Korea 
+									<br/>
+								</p>
+									<a href="https://blwatcher.com/bl-series/semantic-error-drama-review/" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/3rsdQUnQUKE" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="www.gagaoolala.com/en/videos/2571/semantic-error-2022-e01" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Bad And Crazy
+							</div>
+							<img id="img" src="./img/bad.png">
+							<div class="card-body">
+								<p>
+									Drama: Bad and Crazy
+									<br/>
+								    Hangul: 배드 앤 크레이지
+								    <br/>
+								    Episodes: 12
+								    <br/>
+								    Language: Korean
+								    <br/>
+								    Country: South Korea 
+									<br/>
+								</p>
+									<a href="https://asianwiki.com/Bad_and_Crazy" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/kKu6IALrWJE" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.iq.com/album/bad-and-crazy-2021-1gavr9ryfjl?lang=en_us" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<!-- End K-drama section -->
+
+		<!-- Start Thai-drama section -->
+		<section id="t-drama">
+			<div class="container">
+				<div class="text-center p-4">
+					<h1 class="d-flex justify-content-center">Thai-Drama</h1>
+					<p class="d-flex justify-content-center fs-3">Why don't you try getting know about Thai language ? &nbsp;<i class="far fa-laugh-wink mt-2"></i></p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								The Gifted: Graduation
+							</div>
+							<img id="img" src="./img/gifted.png" alt="gifted">
+							<div class="card-body">
+								<p>
+									Drama: The Gifted: Graduation
+									<br/>
+									Country: Thailand
+									<br/>
+									Episodes: 13
+									<br/>
+									Original Network: GMM 25
+									<br/>
+									Duration: 55 min 
+									<br/>
+								</p>
+									<a href="https://mydramalist.com/49743-the-gifted-graduation" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end mt-5">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/wB-F9hvQKRU" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.youtube.com/watch?v=GVM0gMs_Rp4&list=PLkzvQsQu-ofsTgokUVffCzIaPjrn4kv11" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Girl From Nowhere
+							</div>
+							<img id="img" src="./img/nanon.png" alt="nanon">
+							<div class="card-body">
+								<p>
+									Drama: Girl From Nowhere Season 2
+									<br/>
+									Country: Thailand
+									<br/>
+									Episodes: 8
+									<br/>
+									Original Network: GMM 25, Netflix
+									<br/>
+									Duration: 45 min
+									<br/>
+								</p>
+									<a href="https://mydramalist.com/67107-girl-from-nowhere-season-2" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/WYAMLoLOVYI" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="//www.netflix.com/mm/title/80241947" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Blacklist
+							</div>
+							<img id="img" src="./img/blacklist.png" alt="blaclist">
+							<div class="card-body">
+								<p>
+									Drama: Blacklist
+									<br/>
+									Country: Thailand
+									<br/>
+									Episodes: 12
+									<br/>
+									Original Network: GMM 25
+									<br/>
+									Duration: 49 min
+									<br/>
+								</p>
+									<a href="https://mydramalist.com/31863-blacklist" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/QbU4B3r2uvA" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.youtube.com/watch?v=VcLBOlLUlTk&list=PLszepnkojZI6EFETy2-7VNIbjgMaLJEEi" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+							 Crazy Little Thing Called Love
+							</div>
+							<img id="img" src="./img/fl.png" alt="fl">
+							<div class="card-body">
+								<p>
+									Movie:Crazy Little Thing Called Love
+									<br/>
+									Country: Thailand
+									<br/>
+									Type: Movie(2010)
+									<br/>
+									Duration: 1 hr. 58 min.
+									<br/>
+								</p>
+									<a href="https://mydramalist.com/9855-crazy-little-thing-called-love" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/LLaLWehxJFc" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="//www.google.com/search?q=crazy+little+thing+called+love+thai+drama+eng+sub&client=firefox-b-d&ei=tNitY_m_CrOn3LUPr7ebqAg&oq=crazy+little+thing+called+love+thai+drama+&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgAMgYIABAWEB4yCQgAEBYQHhDxBDIGCAAQFhAeMgkIABAWEB4Q8QQyBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgQIABBHOgQILhBDOgUIABCABDoFCC4QgAQ6BwghEKABEAo6CAghEBYQHhAdOgUIIRCgAUoECEEYAEoECEYYAFAjWO45YJRKaAlwAngAgAGHAogBjxeSAQY0LjEzLjSYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Thai-drama section -->
+
+		<!-- Start cartoon section -->
+		<section id="cartoon">
+			<div class="container">
+				<div class="text-center p-4">
+					<h1 class="d-flex justify-content-center text-light">Animation</h1>
+					<p class="d-flex justify-content-center fs-3 text-light">Have Fun Watching Best Of All Time Animation! &nbsp;<i class="far fa-kiss-beam mt-2"></i></p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Spirited Away
+							</div>
+							<img id="img" src="./img/spirited away.png" alt="spiriteaway">
+							<div class="card-body">
+								<p>
+									Japanese:千と千尋の神隠し
+									<br/>
+									Directed by:Hayao Miyazaki
+									<br/>
+									Written by:Hayao Miyazaki
+									<br/>
+									Running time:125 minutes
+									<br/>
+									Country:Japan
+									<br/>
+									Language:Japanese
+									<br/>
+								</p>
+									<a href="https://en.wikipedia.org/wiki/Spirited_Away" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end mt-5">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://www.imdb.com/video/vi3619684633/?playlistId=tt0245429&ref_=tt_ov_vi" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.netflix.com/mm/title/60023642" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Hotel Transylvania 4
+							</div>
+							<img id="img" src="./img/hotel4.png" alt="hotel">
+							<div class="card-body">
+								<p>
+									Name:Hotel Transylvania 4
+									<br/>
+									Release date:January 14, 2022
+									<br/>
+									Running time:87 minutes
+									<br/>
+									Country:United States
+									<br/>
+									Language:English
+									<br/>
+								</p>
+									<a href="https://www.imdb.com/title/tt9848626/" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end mt-5">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/7AP86CYeR30" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.primevideo.com/dp/amzn1.dv.gti.3a1c3b5e-9245-47d7-abc2-3adda85afacf?autoplay=0&ref_=atv_cf_strg_wb" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Frozen II
+							</div>
+							<img id="img" src="./img/frozen2.png" alt="frozen2">
+							<div class="card-body">
+								<p>
+									Name:Frozen II
+									<br/>
+									Production companies:Walt Disney
+									<br/>
+									Running time:103 minutes
+									<br/>
+									Country:United States
+									<br/>
+									Language:English
+									<br/>
+								</p>
+									<a href="https://www.imdb.com/title/tt4520988/" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end mt-5">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/Zi4LMpSDccc" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjg7-qnvp_8AhVp6nMBHeJmBIoQFnoECA4QAQ&url=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Ffrozen-2%2F28vdy71kJrjb&usg=AOvVaw3eZRMfPxnB8hobhRFHYcqx" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 d-flex align-items-stretch">
+						<div class="card mb-4">
+							<div class="card-header text-center fw-bold">
+								Moana
+							</div>
+							<img id="img" src="./img/moana.png" alt="moana">
+							<div class="card-body">
+								<p>
+									Name:Moana
+									<br/>
+									Production companies:Walt Disney
+									<br/>
+									Running time:107 minutes
+									<br/>
+									Country	:United States
+									<br/>
+									Language:English
+									<br/>
+								</p>
+									<a href="https://www.imdb.com/title/tt3521164/" target="_blank" class="btn btn-danger btn-sm rounded-2 float-end mt-5">Read More...</a>
+								
+							</div>
+							<div class="card-footer foot">
+								<a href="https://youtu.be/LKFuXETZUsI" class="btn btn-sm btn-dark float-start fw-bold" target="_blank"><i class="fab fa-youtube text-danger"></i>&nbsp;Trailer</a>
+								<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwilrNywvp_8AhW-0nMBHSnrBoYQFnoECA8QAQ&url=https%3A%2F%2Fwww.disneyplus.com%2Fmovies%2Fmoana%2F70GoJHflgHH9&usg=AOvVaw3c96vb2mVWKA93oR1iysFy" class="btn btn-sm btn-dark float-end fw-bold" target="_blank">&nbsp;Watch Now</a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</section>
+		<!-- End cartoon section -->
+
+		<!-- Start Music Section -->
+		<section id="music">
+			<div class="container-fluid p-5 mb-4">
+				<div class="text-center p-4">
+					<h1 class="d-flex justify-content-center">Music</h1>
+					<p class="d-flex justify-content-center fs-4 lead">Listening to the music is the best therapy
+						<br/>Give a rest to your eyes while listening to the music!</p>
+				</div>
+
+				<div class="row ">
+					<div class="text-center">
+					<!-- Stray Kids -->
+					<iframe src="https://www.youtube.com/embed/57n4dZAPxNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+					<!-- Talk That Talk-Twice -->
+					<iframe  src="https://www.youtube.com/embed/k6jqx9kZgPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+					<!-- Ditto-NewJeans -->
+					<iframe  src="https://www.youtube.com/embed/V37TaRdVUQY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+					<!-- G-Idle -->
+					<iframe src="https://www.youtube.com/embed/fCO7f0SmrDc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+					<!-- New Jeans-->
+					<iframe src="https://www.youtube.com/embed/VOmIplFAGeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+					<!-- NCT dream -->
+					<iframe src="https://www.youtube.com/embed/7avTpOILp1U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1" ></iframe>
+					<!-- Nayeon -->
+					<iframe src="https://www.youtube.com/embed/f6YDKF0LVWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+					<!-- Nonsense-Sebrina Carpenter -->
+					<iframe src="https://www.youtube.com/embed/Y8JFxS1HlDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mb-1"></iframe>
+				</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Music Section -->
+
+		<!-- Start Log In section -->
+		<section id="login" class="container mb-4">
+				<div class="container mt-3">
+					<div class="col-6 ms-3">
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item fs-4 fw-bold lead btn" onclick="login()">Log In</li>
+							<li class="breadcrumb-item fs-4 fw-bold lead btn" onclick="signup()">&nbsp;Sign Up</li>
+						</ul>
+					</div>
+
+					<div class="container">
+						<h2>Welcome<span id="replacename"> </span> !</h2>
+
+						<form action="" method="" enctype="multipart/form-data">
+
+							<div class="col-md-6 form-group mb-3">
+								<label id="su" for="name">Name</label>
+								<input type="text" name="" id="name" class="form-control rounded-2" placeholder="Enter Your Name..." maxlength="30" minlength="10" autocomplete="off" required />
+							</div>
+
+							<div class="col-md-6 form-group mb-3">
+								<label for="email">Email</label>
+								<input type="email" id="email" name="" class="form-control rounded-2" placeholder="Enter your email..." required />
+							</div>
+
+							<div class="col-md-6 form-group mb-3">
+								<label for="password">Password</label>
+								<input type="password" id="password" name="" class="form-control rounded-2" placeholder="Enter your password..." required />
+							</div>
+
+							<a href="https://policies.google.com/privacy?hl=en-US" target="_blank" class="text-dark ms-3">Privacy policy</a>
+
+							<div class="col-md-6 form-group mb-3">
+								<div class="form-check form-switch">
+									<input type="checkbox" name="agree" id="agree" class="form-check-input" value="agree" >
+									<label for="agree">I have read and agreed with the terms and conditions</label>
+								</div>
+							</div>
+
+							<button id="btnsu" type="button" onclick="getdata()" class="btn btn-primary mb-4">Log In</button>
+							
+						</form>
+					</div>
+				</div>
+		</section>
+		<!-- End Log in section -->
+
+		<!-- Start Notice Section -->
+		<section id="notice" class="container-fluid mb-4">
+			<div class="alert alert-danger rounded-3">
+				<h3><i class="fas fa-exclamation-triangle"></i>&nbsp;Notice<strong class="text-danger"> !</strong></h3>
+				<br/>
+				<b class="fs-3">Hello Guys <b class="text-danger">!</b></b>
+				<h4>Please Use VPN if you can't enter the linked websites >-< </h4>
+				<h5 class="text-dark"><i class="fas fa-heart text-danger"></i>&nbsp;You can give review to us through the blue icon at the bottom-right. &nbsp;<i class="fas fa-arrow-circle-right text-dark"></i></h5>
+			</div>
+		</section>
+		<!-- End Notice Section -->
+
+		<!-- Start Footer Section -->
+		<footer id="contact">
+			<div class="col-12 p-3 row">			
+					<p class="col-4 text-light float-start">&copy;Copyright<span id="year">2022</span>@ Hype.Inc.
+						<p class="col-4 text-center text-light mb-0">Contact Us - +959*******</p>
+						<p class="col-4 text-end text-light mb-0" >Address - No(*),**** Street,<br/> **** Township, Yangon</p>
+					</p>				
+			</div>
+		</footer>
+		<!-- End Footer Section -->
+
+
+		
+
+		<!-- Bootstrap -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+		<!-- Javascript -->
+			<script src="./hype.js"type="text/javascript"></script>
+	</body>
+</html>
